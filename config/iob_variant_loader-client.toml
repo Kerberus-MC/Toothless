@@ -1,0 +1,27 @@
+
+["Disable Glowing"]
+	#Disables glowing layer on textures
+	disable_glowing = false
+
+["Disable Named Variants"]
+	#Disables variant display via nametag
+	disable_named_variants = false
+
+["Display Original Variant Name"]
+	#Forces actual variant name to be displayed in tooltip (aka one in VariantName NBT)
+	display_original_variant_name = false
+
+["Log Model Redirects"]
+	#Logs any added model redirect in console for easier debugging
+	log_model_redirects = false
+
+["Generate Translations"]
+	#Automatically generates translations for all variants for english language based on presented model redirects for dragons.
+	#All generated lines will be printed to log file
+	#Use this only if you're pack developer for making your life easier
+	generate_translations = false
+
+["Variants Ignored by Generator"]
+	#Prints for variants that have same name as any value in this list will be skipped when translation key generator is used
+	ignored_by_generator = ["stinger_color_layer", "barklethorn", "barklethorn_membranes", "bork_week", "bork_week_membranes", "deadly_nadder", "deadly_nadder_membranes", "equipment", "flystorm", "flystorm_membranes", "hjaldr", "hjaldr_membranes", "hjarta", "hjarta_membranes", "kingstail", "kingstail_membranes", "lethal_lancebeak", "lethal_lancebeak_membranes", "scardian", "scardian_membranes", "seedling_stormpest", "seedling_stormpest_membranes", "springshedder", "springshedder_membranes", "stormfly", "stormfly_membranes", "barn", "cheesemonger", "crubble", "exiled", "gronckle", "hjarta", "junior_tuffnut_junior", "meatlug", "rubblegrubber", "yawnckle", "blue_glow", "drottinn", "drottinn_grogaldr", "grogaldr", "light_fury", "purple_glow", "sveinn", "sveinn_grogaldr", "albino", "arsian", "karma", "night_fury", "night_fury_glow", "sentinel", "sentinel_glow", "svartr", "toothless", "appaloosa", "ashwing", "dart", "dusk", "harlequeen", "iridescence", "leopard", "nightdancer", "pouncer", "ruffrunner", "skydancer", "bloodroot", "burlystorm", "cardinal", "carnation", "fanghook", "fangmaster", "fire", "hellebore", "hookfang", "mountain", "rainbow", "sunfyre", "tsukarion", "wolfsbane", "albino", "crimson", "fryrir", "icebane", "lightning", "moonshock", "nemesis", "pickle", "skrill", "spark", "spring_storm", "stormshadow", "tempest", "zen", "floutscout", "ice_breaker", "speed_stinger", "speed_stinger_titan", "sweet_sting", "badlands", "chest", "coastal_predator", "collar", "egg", "kingly", "mudsmasher", "sandscorcher", "titanstinger", "wildroar", "blar", "blar_sleeping", "chomp", "chomp_sleeping", "head", "head_sleeping", "iggy", "iggy_sleeping", "pain", "pain_sleeping", "sharpshot", "sharpshot_sleeping", "sneaky", "sneaky_sleeping", "terrible_terror", "terrible_terror_sleeping", "terror", "terror_sleeping", "titan_wing", "titan_wing_sleeping", "blue", "boreas", "champion", "eclipser", "nikora_triple_stryke", "rosethorn", "sleuther", "spyro", "starstreak", "stinger_color_layer", "triple_stryke", "fart_n_sniff", "hamfeist", "hjarta", "hodd", "kandy_n_kane", "leaf_n_bark", "pistill", "purple_n_nurple", "sandr", "whip_n_lash"]
+

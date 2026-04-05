@@ -1,0 +1,67 @@
+
+["Dragon Grooming"]
+	#Disable Dragon Brushing?
+	"Disable dragon brushing" = false
+	#Dragon Brush cooldown in minutes
+	"Dragon Brush Cooldown (Minutes)" = 30
+	#Disable Dragon Nip?
+	"Disable dragon nip" = false
+
+["Dragon Egg Crates from Vanilla Gameplay"]
+	#Disable Dragon Egg Crates from Piglin Trades, Fishing & Buried Treasure?
+	"Disable dragon egg crates" = false
+	#Chance of getting Dragon Egg Crates from Piglin Trades & Fishing
+	"Dragon Egg Crate Drop Chance (Base Value = 5% Chance)" = 0.95
+	#How many Dragon Egg Crates from Piglin Trades, Fishing & Buried Treasure??
+	"Number of Dragon Egg Crates" = 1
+
+["Dragon Hunters"]
+	#Disable Dragon Hunters from targeting Dragons?
+	"Disable dragon targeting" = false
+	#Enable Dragon Hunter Trappers to summon Vexes?
+	"enable Vex summoning" = false
+	#Disable Dragon Hunters dropping Dragon Proof Egg Crates?
+	"Disable dragon proof egg crates" = false
+	#Chance of Dragon Proof Egg Crates dropping from Dragon hunters
+	"Dragon Proof Egg Crate Drop Chance (Base Value = 5% Chance)" = 0.95
+	#How many Dragon Proof Egg Crates drop from Dragon hunters?
+	"Number of Dragon Proof Egg Crates" = 1
+	#Disable Dragon Blood Scent Effect?
+	"Disable Dragon Blood Scent Effect" = false
+
+["Dragon Toxins"]
+	#Disable blue oleander lethality?
+	"Disable oleander lethality" = false
+	#Disable dragon root hostility?
+	"Disable dragon root" = false
+	#Disable refined dragon root effects?
+	"Disable refined dragon root" = false
+	#Refined dragon root Dragon Descent speed?
+	"Dragon Descent Speed?" = -0.3
+	#Disable use of the Dragon Root Remedy?
+	"Disable dragon root curability" = false
+	#Disable use of Scauldron Venom?
+	"Disable oleander curability" = false
+
+[Johann]
+	#Johann sells egg crates?
+	"Johann sells egg crates" = true
+	#Johann sells oleander antidote?
+	"Johann sells oleander antidote" = true
+	#Johann sells Viking artifacts?
+	"Johann sells Viking artifacts" = true
+	#Number of times you can buy a dragon egg crate. Must be at least 1 - disable above if you do not want them at all.
+	"Egg crate trade uses" = 1
+	#Egg crate base price. Must be at least 1
+	#Range: 1 ~ 64
+	"Egg crate base price" = 32
+	#Viking artifact base price. Must be at least 1.
+	#Range: 1 ~ 64
+	"Viking artifact base price" = 48
+
+["Whispering Death Nests"]
+	#How many Whispering Death Nests spawn per chunk?
+	"Nests Per Chunk" = 10
+	#How many Whispering Death Nest blocks spawn in one Nest?
+	"Nest Size" = 3
+
