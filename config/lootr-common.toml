@@ -84,4 +84,6 @@ modid_dimension_whitelist = []
 trapped_custom = false
 #disables styling of breaking, decaying and refreshing messages sent to players
 disable_message_styles = false
+#allow Lootr chests to be opened in spawn protected areas
+bypass_spawn_protection = true
 

@@ -1,0 +1,42 @@
+[
+	{
+		"mob": "inferno:pillager_dragon_hunter",
+		"setxp": 1,
+		"result": "allow"
+	},
+	{
+		"mob": "minecraft:pillager",
+		"setxp": 1,
+		"result": "allow"
+	},
+	{
+		"mob": "minecraft:evoker",
+		"setxp": 1,
+		"result": "allow"
+	},
+	{
+		"mob": "minecraft:vindicator",
+		"setxp": 1,
+		"result": "allow"
+	},
+	{
+		"mob": "minecraft:spider",
+		"setxp": 1,
+		"result": "allow"
+	},
+	{
+		"mob": "minecraft:cave_spider",
+		"setxp": 1,
+		"result": "allow"
+	},
+	{
+		"mob": "minecraft:husk",
+		"setxp": 1,
+		"result": "allow"
+	},
+	{
+		"mob": "minecraft:stray",
+		"setxp": 1,
+		"result": "allow"
+	}
+]

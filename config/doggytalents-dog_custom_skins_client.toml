@@ -1,0 +1,6 @@
+#Other: Defaulted to 0
+#Range: > -2147483648
+strategy = 0
+whitelisted_id = []
+blacklisted_id = []
+

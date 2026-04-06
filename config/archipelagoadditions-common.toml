@@ -28,6 +28,8 @@
 	"Number of Dragon Proof Egg Crates" = 1
 	#Disable Dragon Blood Scent Effect?
 	"Disable Dragon Blood Scent Effect" = false
+	#Duration of Dragon Blood Scent effect (in minutes).
+	"Duration of Dragon Blood Scent effect" = 30
 
 ["Dragon Toxins"]
 	#Disable blue oleander lethality?

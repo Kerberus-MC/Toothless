@@ -115,7 +115,7 @@ element {
 
 element {
   interactable = true
-  source = Fun Fact: Servers are always on latest version of the pack.
+  source = mlem.
   source_mode = direct
   shadow = true
   scale = 1.0

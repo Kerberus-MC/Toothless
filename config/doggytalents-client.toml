@@ -1,0 +1,72 @@
+
+["Dog Render"]
+	#Enables the particle effect on Full Kami dogs.
+	enable_kami_particles = false
+	#Disable this if you want to force all PackPuppy Dog to not render their Chest.
+	render_chest = true
+	#Enable this if you prefer to have The Classical Skin rendered on all dog regardless.
+	always_render_classical = false
+	#When enabled, Dogs will show injured texture while incapacitated.
+	render_incapacitated_overlay = true
+	#, the length of the part is based on the health percentage the dog has left
+	render_health_in_name = true
+	#the Dog Status String located above the main Dog Name String.
+	dog_info_seperator = " · "
+	#Dog Name String.
+	dog_info_hunger_format = "%d"
+	#GUI in Talents > Pack Puppy.
+	dog_inv_button_in_inv = true
+	#of the box wrapping the whole inventory gui.
+	#Range: -500 ~ 500
+	dog_inv_button_in_inv_x = 78
+	#Range: -500 ~ 500
+	dog_inv_button_in_inv_y = 48
+	#You can substitute this friendlier texture instead.
+	render_incap_txt_less_graphic = false
+	#Render the dogs' name whose owner is not you with a different color.
+	render_diffowner_name_different = true
+	#Do not render dogs' names whose owner is not you.
+	render_diffowner_name_dont = false
+	#Always render dog nametags regardless even if the player blocks it by F1 mode.
+	always_render_dog_name = false
+	#(Which they should). This option should only be used as the last resort.
+	block_third_party_nametag = false
+	#will make DTN directly reference the in-game texture.
+	use_vanilla_res_for_classical = false
+	#Show a fun icon on world loading screen.
+	world_load_icon = true
+	#to force the icon to always show Classical Pale.
+	ammy_spinna = true
+	#Determine if dogs will render their armor.
+	render_armor = true
+	#to indicate hurting.
+	block_red_overlay_when_hurt = false
+	#Display extra smoke when the dog is on fire.
+	display_smoke_when_on_fire = true
+	#less compatible model.
+	mouth_item_force_render = true
+	#Provide a non positive integer to disable this. Value from 0 to 7 both inclusive will be defaulted to 7.
+	#Range: > -2147483648
+	max_animation_latency_allowed = 10
+	#if you prefer to use the old system instead.
+	use_legacy_dog_armor_render = false
+	#DTN provided model designed for Dogs (specified by the below option).
+	use_third_party_player_helmet_model = false
+	#render it on the Dog's head. Enable this to make DTN reuse the player's Helmet Model instead.
+	use_player_helmet_model_by_default = false
+	#regardless of the world's serverconfig.
+	enable_starter_bundle_by_default = false
+	#clientside. Set this to false to disable this behaviour.
+	dog_variant_client_effect = true
+	#using the Canine Tracker and you prefer to make the tracker invisible.
+	render_radio_collar = true
+	#This is to prevent Special Variant's overlay to override on the Overlay Accessories
+	translucent_all_overlay = true
+	#Enable this to hide Wolf Mount Dog's Status Overlay when riding it.
+	hide_wolf_mount_status = false
+	#Set this option to any value less than zero to remove the limit.
+	#Range: > -2147483648
+	max_dog_bed_model_cache = 65536
+	#this to make Owned Dogs' Names no longer visible through walls.
+	show_dog_name_thru_wall = true
+

@@ -1,0 +1,36 @@
+[
+	{
+		"mob": ["isleofberk:skrill", "isleofberk:zippleback", "isleofberk:monstrous_nightmare", "isleofberk:triple_stryke", "isleofberk:gronckle", "isleofberk:deadly_nadder", "isleofberk:terrible_terror"],
+		"amount": {
+			"minimum": 3,
+			"maximum": 8
+		},
+		"conditions": {
+			"dimension": "ecod:the_depths",
+			"norestrictions": true,
+			"inair": true,
+			"mindist": 40,
+			"maxdist": 500,
+			"minheight": -100,
+			"maxheight": 200,
+			"maxthis": 80
+		}
+	},
+	{
+		"mob": ["isleofberk:light_fury","isleofberk:skrill","isleofberk:gronckle"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"conditions": {
+			"dimension": ["ecod:the_depths", "minecraft:overworld"],
+			"inwater": true,
+			"mindist": 25,
+			"maxdist": 100,
+			"minheight": -100,
+			"maxheight": 200,
+			"maxthis": 15
+		}
+	}
+	
+]

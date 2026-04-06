@@ -1,0 +1,833 @@
+[
+	{
+		"mob": ["isleofberk:light_fury"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "sandwraith",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:light_fury"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:cold_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "seafoam",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:light_fury"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:warm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "luca",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:light_fury"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:deep_cold_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "haili",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:light_fury"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:deep_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "cynder",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:light_fury"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:deep_lukewarm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "amber",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:light_fury"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:lukewarm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "rhodeia",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:light_fury"],
+		"dimension": ["ecod:the_depths"],
+		"biome": ["ecod:submerged_cavity"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "desert",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:skrill"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "mildews_misery",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:skrill"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:cold_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "skycarver",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:skrill"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:deep_cold_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "mistroll",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:skrill"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:warm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "tempestjaw",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:skrill"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:warm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "mea",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:skrill"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:deep_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "nightjaw",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:skrill"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:deep_lukewarm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "limejaw",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:skrill"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:lukewarm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "scauldron",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:skrill"],
+		"dimension": ["ecod:the_depths"],
+		"biome": ["ecod:submerged_cavity"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "anemone",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:gronckle"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "thunderbottom",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:gronckle"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:cold_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "smurfbottom",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:gronckle"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:deep_cold_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "smurfbottom",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:gronckle"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:deep_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "thunderbottom",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:gronckle"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:warm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "spardian",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:gronckle"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:deep_lukewarm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "bottomcheese",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:gronckle"],
+		"dimension": ["minecraft:overworld"],
+		"biome": ["minecraft:lukewarm_ocean"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "bottomcheese",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["isleofberk:gronckle"],
+		"dimension": ["ecod:the_depths"],
+		"biome": ["ecod:submerged_cavity"],
+		"result": "allow",
+		"nbt": {
+			"is_flying": 0,
+			"VariantName": "hellbottom",
+			"Attributes": [
+				{
+					"Name": "forge:entity_gravity",
+					"Base": 10
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:amphibious",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["minecraft:pillager"],
+		"result": "allow",
+		"healthmultiply": 1.5,
+		"damagemultiply": 1.5,
+		"speedmultiply": 1.5,
+		"nbt": {
+			"DeathLootTable": "minecraft:empty",
+			"HandDropChances": [0, 0],
+			"ArmorDropChances": [0, 0, 0, 0],
+			"HandItems": [
+				{
+					"id": "archipelagoadditions:dragon_hunter_crossbow",
+					"Count": 1,
+					"tag": {
+						"Enchantments": [
+							{
+								"id": "quick_charge",
+								"lvl": 3
+							},
+							{
+								"id": "vanishing_curse",
+								"lvl": 1
+							},
+							{
+								"id": "multishot",
+								"lvl": 1
+							}
+						]
+					}
+				},
+				{
+					"id": "minecraft:tipped_arrow",
+					"Count": 127,
+					"tag": {
+						"Potion": "archipelagoadditions:refined_dragon_root_potion"
+					}
+				}
+			],
+			"ArmorItems": [
+				{
+					"id": "archipelagoadditions:dragon_hunter_leggings",
+					"Count": 1,
+					"tag": {
+						"Enchantments": [
+							{
+								"id": "fire_protection",
+								"lvl": 15
+							},
+							{
+								"id": "projectile_protection",
+								"lvl": 20
+							},
+							{
+								"id": "blast_protection",
+								"lvl": 10
+							}
+						]
+					}
+				},
+				{
+					"id": "archipelagoadditions:dragon_hunter_chestplate",
+					"Count": 1,
+					"tag": {
+						"Enchantments": [
+							{
+								"id": "projectile_protection",
+								"lvl": 20
+							},
+							{
+								"id": "blast_protection",
+								"lvl": 10
+							}
+						]
+					}
+				},
+				{
+					"id": "archipelagoadditions:dragon_hunter_helmet",
+					"Count": 1,
+					"tag": {
+						"Enchantments": [
+							{
+								"id": "blast_protection",
+								"lvl": 80
+							},
+							{
+								"id": "projectile_protection",
+								"lvl": 20
+							}
+						]
+					}
+				}
+			],
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:deflection",
+						"lvl": 1
+					},
+					{
+						"id": "domesticationinnovation:fireproof",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	},
+	{
+		"mob": ["minecraft:vindicator"],
+		"result": "allow",
+		"healthmultiply": 1.5,
+		"damagemultiply": 1.5,
+		"speedmultiply": 1.5,
+		"nbt": {
+			"PersistenceRequired": 1,
+			"DeathLootTable": "minecraft:empty",
+			"HandDropChances": ["0.00f", "0.00f"],
+			"ArmorDropChances": ["0.00f", "0.00f", "0.00f", "0.00f"],
+			"HandItems": [
+				{
+					"id": "archipelagoadditions:dragon_hunter_axe",
+					"Count": 1,
+					"tag": {
+						"Enchantments": [
+							{
+								"id": "sharpness",
+								"lvl": 3
+							}
+						]
+					}
+				},
+				{}
+			],
+			"ArmorItems": [
+				{
+					"id": "iron_boots",
+					"Count": 1,
+					"tag": {
+						"Enchantments": [
+							{
+								"id": "blast_protection",
+								"lvl": 4
+							}
+						]
+					}
+				},
+				{
+					"id": "iron_leggings",
+					"Count": 1,
+					"tag": {
+						"Enchantments": [
+							{
+								"id": "fire_protection",
+								"lvl": 4
+							}
+						]
+					}
+				},
+				{
+					"id": "iron_chestplate",
+					"Count": 1,
+					"tag": {
+						"Enchantments": [
+							{
+								"id": "projectile_protection",
+								"lvl": 4
+							}
+						]
+					}
+				},
+				{
+					"id": "iron_helmet",
+					"Count": 1,
+					"tag": {
+						"Enchantments": [
+							{
+								"id": "projectile_protection",
+								"lvl": 4
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	{
+		"mob": ["minecraft:evoker"],
+		"result": "allow",
+		"nbt": {
+			"CitadelData": {
+				"HasPetCollar": 1,
+				"DeathLootTable": "minecraft:empty",
+				"StoredPetEnchantments": [
+					{
+						"id": "domesticationinnovation:deflection",
+						"lvl": 1
+					},
+					{
+						"id": "domesticationinnovation:fireproof",
+						"lvl": 1
+					}
+				]
+			}
+		}
+	}
+]

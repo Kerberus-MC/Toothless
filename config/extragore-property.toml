@@ -1,0 +1,344 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "alexsmobs:centipede_tail",
+    "alexsmobs:snow_leopard",
+    "cozy_home:seat_low",
+    "aquaculture:pink_salmon",
+    "luphieclutteredmod:pastel_chair_entity",
+    "alexsmobs:seal",
+    "alexsmobs:roadrunner",
+    "alexsmobs:laviathan",
+    "minecraft:trader_llama",
+    "inferno:terrible_terror_head",
+    "inferno:stinger_head",
+    "alexsmobs:endergrade",
+    "minecraft:horse",
+    "inferno:zipple_back_head",
+    "isleofberk:speed_stinger",
+    "aquaculture:muskellunge",
+    "aquaculture:bayad",
+    "minecraft:llama",
+    "alexsmobs:maned_wolf",
+    "minecraft:dolphin",
+    "neapolitan:plantain_spider",
+    "aquamirae:maw",
+    "biomemakeover:scuttler",
+    "alexsmobs:gelada_monkey",
+    "biomemakeover:moth",
+    "isleofberk:speed_stinger_leader",
+    "minecolonies:pirate",
+    "alexsmobs:hammerhead_shark",
+    "alexsmobs:dropbear",
+    "alexsmobs:tiger",
+    "biomemakeover:blightbat",
+    "alexsmobs:grizzly_bear",
+    "minecolonies:archerbarbarian",
+    "minecraft:bee",
+    "aquaculture:perch",
+    "alexsmobs:devils_hole_pupfish",
+    "biomemakeover:toad",
+    "minecraft:illusioner",
+    "minecolonies:barbarian",
+    "inferno:triple_stryke_head",
+    "galosphere:spectre",
+    "inferno:pillager_dragon_hunter",
+    "minecraft:mooshroom",
+    "alexsmobs:bison",
+    "minecraft:drowned",
+    "minecraft:axolotl",
+    "biomemakeover:lightning_bug",
+    "tconstruct:earth_slime",
+    "minecolonies:chiefpirate",
+    "alexsmobs:gorilla",
+    "isleofberk:night_fury",
+    "isleofberk:night_light",
+    "aquaculture:arapaima",
+    "alexsmobs:tusklin",
+    "quark:crab",
+    "inferno:light_fury_head",
+    "alexsmobs:cosmic_cod",
+    "inferno:skrill_head",
+    "minecraft:wandering_trader",
+    "biomemakeover:mushroom_trader",
+    "biomemakeover:decayed",
+    "aquaculture:pacific_halibut",
+    "alexsmobs:kangaroo",
+    "inferno:night_fury_head",
+    "ecologics:coconut_crab",
+    "strawgolem:strawgolem",
+    "biomemakeover:adjudicator_mimic",
+    "alexsmobs:hummingbird",
+    "biomemakeover:rootling",
+    "alexsmobs:crow",
+    "doggytalents:dog",
+    "aquaculture:atlantic_cod",
+    "alexsmobs:guster",
+    "minecraft:pufferfish",
+    "aquaculture:starshell_turtle",
+    "cozy_home:seat",
+    "minecraft:fox",
+    "alexsmobs:warped_toad",
+    "minecraft:chicken",
+    "alexsmobs:giant_squid",
+    "minecraft:zombie",
+    "alexsmobs:emu",
+    "alexsmobs:cockroach",
+    "untitledduckmod:goose",
+    "aquaculture:tambaqui",
+    "neapolitan:chimpanzee",
+    "alexsmobs:flutter",
+    "minecraft:hoglin",
+    "hunterillager:hunterillager",
+    "alexsmobs:capuchin_monkey",
+    "ecologics:camel",
+    "tconstruct:terracube",
+    "aquaculture:brown_shrooma",
+    "luphieclutteredmod:log_set_seating_entity",
+    "minecraft:polar_bear",
+    "minecraft:zombified_piglin",
+    "aquaculture:brown_trout",
+    "isleofberk:skrill",
+    "minecraft:turtle",
+    "minecraft:sheep",
+    "quark:wraith",
+    "alexsmobs:rattlesnake",
+    "quark:foxhound",
+    "minecolonies:norsemenarcher",
+    "alexsmobs:bone_serpent_part",
+    "inferno:m_nightmare_head",
+    "alexsmobs:raccoon",
+    "minecolonies:citizen",
+    "minecraft:ravager",
+    "alexsmobs:bone_serpent",
+    "minecolonies:amazon",
+    "isleofberk:terrible_terror",
+    "alexsmobs:fly",
+    "minecolonies:archermummy",
+    "quark:shiba",
+    "alexsmobs:straddler",
+    "luphieclutteredmod:unliving_chair_entity",
+    "alexsmobs:sea_bear",
+    "biomemakeover:adjudicator",
+    "alexsmobs:crimson_mosquito",
+    "minecolonies:amazonspearman",
+    "biomemakeover:cowboy",
+    "valhelsia_structures:mossy_skeleton",
+    "aquamirae:eel",
+    "alexsmobs:orca",
+    "alexsmobs:jerboa",
+    "minecraft:bat",
+    "alexsmobs:cosmaw",
+    "minecolonies:mummy",
+    "alexsmobs:comb_jelly",
+    "tconstruct:ender_slime",
+    "inferno:deadly_nadder_head",
+    "luphieclutteredmod:log_bed_seating_entity",
+    "alexsmobs:enderiophage",
+    "aquamirae:anglerfish",
+    "alexsmobs:sunbird",
+    "biomemakeover:dragonfly",
+    "alexsmobs:tasmanian_devil",
+    "minecraft:cat",
+    "alexsmobs:stradpole",
+    "ecologics:penguin",
+    "minecraft:tropical_fish",
+    "isleofberk:deadly_nadder",
+    "minecolonies:norsemenchief",
+    "minecraft:panda",
+    "minecraft:zombie_villager",
+    "village_employment:illager_minion",
+    "isleofberk:monstrous_nightmare",
+    "alexsmobs:froststalker",
+    "minecraft:giant",
+    "alexsmobs:lobster",
+    "alexsmobs:seagull",
+    "minecolonies:archerpirate",
+    "aquaculture:atlantic_herring",
+    "alexsmobs:moose",
+    "alexsmobs:shoebill",
+    "aquamirae:tortured_soul",
+    "alexsmobs:warped_mosco",
+    "minecolonies:amazonchief",
+    "aquaculture:bluegill",
+    "minecraft:husk",
+    "alexsmobs:anaconda_part",
+    "alexsmobs:komodo_dragon",
+    "minecolonies:mercenary",
+    "minecraft:donkey",
+    "minecolonies:shieldmaiden",
+    "aquamirae:maze_mother",
+    "isleofberk:stinger",
+    "quark:stoneling",
+    "minecraft:piglin_brute",
+    "aquamirae:golden_moth",
+    "strawgolem:strawnggolem",
+    "galosphere:sparkle",
+    "alexsmobs:crocodile",
+    "quark:toretoise",
+    "quark:frog",
+    "aquaculture:jellyfish",
+    "alexsmobs:frilled_shark",
+    "aquaculture:tuna",
+    "alexsmobs:bald_eagle",
+    "inferno:gronckle_head",
+    "alexsmobs:blobfish",
+    "luphieclutteredmod:mushroom_bed_seat_entity",
+    "ecologics:squirrel",
+    "alexsmobs:mimicube",
+    "aquaculture:blackfish",
+    "alexsmobs:void_worm",
+    "minecraft:parrot",
+    "aquamirae:spinefish",
+    "alexsmobs:centipede_head",
+    "aquaculture:carp",
+    "biomemakeover:tadpole",
+    "alexsmobs:mimic_octopus",
+    "untitledduckmod:duck",
+    "aquaculture:boulti",
+    "alexsmobs:bunfungus",
+    "alexsmobs:void_worm_part",
+    "biomemakeover:lightning_bug_alternate",
+    "minecraft:mule",
+    "minecraft:vindicator",
+    "aquamirae:pillagers_patrol",
+    "isleofberk:triple_stryke",
+    "alexsmobs:flying_fish",
+    "minecolonies:chiefbarbarian",
+    "minecraft:evoker",
+    "alexsmobs:centipede_body",
+    "aquaculture:synodontis",
+    "quark:forgotten",
+    "luphieclutteredmod:imperial_and_pastel_chair_entity",
+    "alexsmobs:tarantula_hawk",
+    "luphieclutteredmod:luphie_armchair_entity",
+    "aquaculture:smallmouth_bass",
+    "alexsmobs:cachalot_whale",
+    "aquaculture:minnow",
+    "tconstruct:sky_slime",
+    "aquaculture:catfish",
+    "aquamirae:luminous_jelly",
+    "alexsmobs:terrapin",
+    "alexsmobs:anaconda",
+    "minecraft:pig",
+    "aquaculture:red_shrooma",
+    "alexsmobs:alligator_snapping_turtle",
+    "aquaculture:atlantic_halibut",
+    "minecraft:goat",
+    "minecraft:cod",
+    "aquaculture:gar",
+    "aquaculture:red_grouper",
+    "alexsmobs:mantis_shrimp",
+    "minecolonies:visitor",
+    "inferno:speed_stinger_head",
+    "alexsmobs:platypus",
+    "minecraft:cow",
+    "alexsmobs:rocky_roller",
+    "aquaculture:rainbow_trout",
+    "gravestone:player_ghost",
+    "alexsmobs:soul_vulture",
+    "alexsmobs:toucan",
+    "minecraft:salmon",
+    "luphieclutteredmod:lovely_love_seats_entity",
+    "alexsmobs:anteater",
+    "biomemakeover:glowfish",
+    "minecraft:rabbit",
+    "minecraft:pillager",
+    "minecraft:zoglin",
+    "aquaculture:piranha",
+    "aquaculture:box_turtle",
+    "alexsmobs:leafcutter_ant",
+    "alexsmobs:mungus",
+    "alexsmobs:spectre",
+    "aquamirae:captain_cornelia",
+    "alexsmobs:catfish",
+    "aquaculture:pollock",
+    "minecraft:piglin",
+    "alexsmobs:skelewag",
+    "aquaculture:arrau_turtle",
+    "alexsmobs:elephant",
+    "aquaculture:capitaine",
+    "alexsmobs:gazelle",
+    "minecraft:zombie_horse",
+    "isleofberk:gronckle",
+    "luphieclutteredmod:rovers_stool_entity",
+    "biomemakeover:ghost",
+    "minecolonies:pharao",
+    "minecraft:ocelot",
+    "biomemakeover:owl",
+    "isleofberk:zippleback",
+    "minecraft:wolf",
+    "isleofberk:light_fury"
+]

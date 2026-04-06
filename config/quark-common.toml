@@ -363,7 +363,7 @@
 		"Item Quality" = 2
 		"Normal Upgrade Cost" = 10
 		"Limit Break Upgrade Cost" = 30
-		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
+		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing", "obscure_api:fast_spin", "obscure_api:distance", "alexsmobs:straddle_jump", "create:capacity", "create:potato_recovery", "domesticationinnovation:extra_health", "domesticationinnovation:immunity_frame", "domesticationinnovation:chain_lightning", "domesticationinnovation:speedster", "domesticationinnovation:herding", "domesticationinnovation:shadow_hands", "domesticationinnovation:defusal", "domesticationinnovation:psychic_wall", "domesticationinnovation:intimidation"]
 		"Overleveled Books Glow Rainbow" = true
 		#Master Librarians will offer to exchange Ancient Tomes, provided you give them a max-level Enchanted Book of the Tome's enchantment too.
 		"Librarians Exchange Ancient Tomes" = true
@@ -395,7 +395,7 @@
 	"More Banner Layers" = true
 	"Lock Rotation" = true
 	"Hoe Harvesting" = true
-	"Grab Chickens" = true
+	"Grab Chickens" = false
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
 	Emotes = true
@@ -1181,13 +1181,13 @@
 		"Ignore Anti Overlap" = false
 
 [mobs]
-	Wraith = true
+	Wraith = false
 	Toretoise = true
 	Stonelings = true
 	Shiba = true
 	Frogs = true
 	Foxhound = true
-	Forgotten = true
+	Forgotten = false
 	Crabs = true
 
 	[mobs.wraith]
@@ -1428,16 +1428,16 @@
 					"Is Blacklist" = true
 
 [client]
-	"Variant Animal Textures" = true
+	"Variant Animal Textures" = false
 	"Uses For Curses" = true
 	"Usage Ticker" = true
 	"Soul Candles" = true
 	"Microcrafting Helper" = true
 	"Improved Tooltips" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Chest Searching" = true
 	"Back Button Keybind" = true
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true
@@ -1550,7 +1550,7 @@
 		"Vertical Shift" = 0
 
 [oddities]
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 	"Tiny Potato" = true
 	Pipes = true
 	"Matrix Enchanting" = true
@@ -1622,10 +1622,10 @@
 		#Candles with soul sand below them or below the bookshelves dampen enchantments instead of influence them.
 		"Soul Candles Invert" = true
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
-		"Disallowed Enchantments" = []
+		"Disallowed Enchantments" = ["domesticationinnovation:blight_curse,domesticationinnovation:infamy_curse,domesticationinnovation:undead_curse,domesticationinnovation:immaturity_curse"]
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
 		#A minus sign before an enchantment will make the influence decrease the probability of that enchantment.
-		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
+		"Influences List" = ["minecraft:unbreaking,dometicationinnovationhealth_siphon", "minecraft:fire_protection,dometicationinnovation:fireproof", "minecraft:knockback,minecraft:punch,omesticationinnovation:total_recall,domesticationinnovation,warpingbite", "minecraft:feather_falling,domesticationinnovation:chain_lightning", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea,domesticationinnovation:intimidation", "minecraft:blast_protection,domesticationinnovation:herding,domesticationinnovation:defusal", "minecraft:silk_touch,minecraft:channeling,domesticationinnovation:magnetic,domesticationinnovation:linked_inventory,domesticationinnovation:psychic_wall", "minecraft:bane_of_arthropods,domesticationinnovation:shadow_hands", "minecraft:protection,domesticationinnovation:immunity_frame", "minecraft:respiration,minecraft:loyalty,minecraft:infinity,create:potato_recovery,obscureapi:mirror,domesticationinnovation:frost_fang", "minecraft:sweeping,minecraft:multishot,domesticationinnovation:poison_resistance,domesicationinnovation:tethered_teleport", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge,obscureapi:fast_spin,domesticatioinnovationdisc_jockey", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide,obscureapi:distance,domesticationinnovation:amphibious", "minecraft:thorns,minecraft:piercing,domesticationinnovaion:speedster,domesticationinnovation:gluttonous", "minecraft:fire_aspect,minecraft:flame,domestiationinnovation:extra_health", "minecraft:smite,minecraft:projectile_protection,domesticaioninnovation:deflecting"]
 		#An array of influences that other blocks should apply.
 		#Format is: "blockstate;strength;color;enchantments", i.e. "minecraft:sea_pickle[pickles=1,waterlogged=false];1;#008000;minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide" (etc) or "minecraft:anvil[facing=north];#808080;-minecraft:thorns,minecraft:unbreaking" (etc)
 		"States To Influences" = []
