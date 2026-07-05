@@ -6,6 +6,14 @@
 	"Dragon Brush Cooldown (Minutes)" = 30
 	#Disable Dragon Nip?
 	"Disable dragon nip" = false
+	#Enable bonding effect from brushing?
+	"Enable brush bonding" = true
+	#Health buff from bonding effect
+	"Bonding health buff" = 10.0
+	#Armour buff from bonding effect
+	"Bonding armour buff" = 2.0
+	#Damage buff from bonding effect
+	"Bonding damage buff" = 2.0
 
 ["Dragon Egg Crates from Vanilla Gameplay"]
 	#Disable Dragon Egg Crates from Piglin Trades, Fishing & Buried Treasure?
@@ -16,10 +24,6 @@
 	"Number of Dragon Egg Crates" = 1
 
 ["Dragon Hunters"]
-	#Disable Dragon Hunters from targeting Dragons?
-	"Disable dragon targeting" = false
-	#Enable Dragon Hunter Trappers to summon Vexes?
-	"enable Vex summoning" = false
 	#Disable Dragon Hunters dropping Dragon Proof Egg Crates?
 	"Disable dragon proof egg crates" = false
 	#Chance of Dragon Proof Egg Crates dropping from Dragon hunters
@@ -30,6 +34,72 @@
 	"Disable Dragon Blood Scent Effect" = false
 	#Duration of Dragon Blood Scent effect (in minutes).
 	"Duration of Dragon Blood Scent effect" = 30
+	#Allow milk to remove Dragon Blood Scent effect?
+	"dragon blood scent removable" = false
+	#Enable Evokers summoning Grimora?
+	"Enable Grimora summoning" = false
+	#Dragon Hunter Chieftess max health (in half hearts)
+	"Dragon Hunter Chieftess max health" = 200.0
+	#Dragon Hunter armor (in half icons)
+	"Dragon Hunter Chieftess armor" = 14.0
+	#Dragon Hunter Chieftess attack damage (in half hearts)
+	"Dragon Hunter Chieftess attack damage" = 8.0
+	#Dragon Hunter Chieftess movement speed
+	"Dragon Hunter Chieftess movement speed" = 0.35
+	#Dragon Hunter Chieftess follow range (in blocks)
+	"Dragon Hunter Chieftess follow range" = 18.0
+	#Dragon Hunter Chief max health (in half hearts)
+	"Dragon Hunter Chief max health" = 150.0
+	#Dragon Hunter armor (in half icons)
+	"Dragon Hunter Chief armor" = 10.0
+	#Dragon Hunter Chief attack damage (in half hearts)
+	"Dragon Hunter Chief attack damage" = 8.0
+	#Dragon Hunter Chief movement speed
+	"Dragon Hunter Chief movement speed" = 0.35
+	#Dragon Hunter Chief follow range (in blocks)
+	"Dragon Hunter Chief follow range" = 18.0
+	#Dragon Hunter Spearer max health (in half hearts)
+	"Dragon Hunter Spearer max health" = 40.0
+	#Dragon Hunter Spearer armor (in half icons)
+	"Dragon Hunter Spearer armor" = 6.0
+	#Dragon Hunter Spearer attack damage (in half hearts)
+	"Dragon Hunter Spearer attack damage" = 5.0
+	#Dragon Hunter Spearer movement speed
+	"Dragon Hunter Spearer movement speed" = 0.4
+	#Dragon Hunter Spearer follow range (in blocks)
+	"Dragon Hunter Spearer follow range" = 18.0
+	#Dragon Hunter max health (in half hearts)
+	"Dragon Hunter max health" = 40.0
+	#Dragon Hunter armor (in half icons)
+	"Dragon Hunter armor" = 6.0
+	#Dragon Hunter attack damage (in half hearts)
+	"Dragon Hunter attack damage" = -2.0
+	#Dragon Hunter movement speed
+	"Dragon Hunter movement speed" = 0.35
+	#Dragon Hunter follow range (in blocks)
+	"Dragon Hunter follow range" = 16.0
+	#Dragon Hunter Marksman max health (in half hearts)
+	"Dragon Hunter Marksman max health" = 40.0
+	#Dragon Hunter Marksman attack damage (in half hearts)
+	"Dragon Hunter Marksman attack damage" = 5.0
+	#Dragon Hunter Marksman movement speed
+	"Dragon Hunter Marksman movement speed" = 0.35
+	#Dragon Hunter Marksman follow range (in blocks)
+	"Dragon Hunter Marksman follow range" = 32.0
+	#Dragon Hunter Deadeye max health (in half hearts)
+	"Dragon Hunter Deadeye max health" = 30.0
+	#Dragon Hunter Deadeye attack damage (in half hearts)
+	"Dragon Hunter Deadeye attack damage" = 5.0
+	#Dragon Hunter Deadeye movement speed
+	"Dragon Hunter Deadeye movement speed" = 0.35
+	#Dragon Hunter Deadeye follow range (in blocks)
+	"Dragon Hunter Deadeye follow range" = 48.0
+	#Dragon Hunter Trapper max health (in half hearts)
+	"Dragon Hunter Trapper max health" = 40.0
+	#Dragon Hunter Trapper movement speed
+	"Dragon Hunter Trapper movement speed" = 0.5
+	#Dragon Hunter Trapper follow range (in blocks)
+	"Dragon Hunter Trapper follow range" = 16.0
 
 ["Dragon Toxins"]
 	#Disable blue oleander lethality?
@@ -46,24 +116,144 @@
 	"Disable oleander curability" = false
 
 [Johann]
-	#Johann sells egg crates?
-	"Johann sells egg crates" = true
-	#Johann sells oleander antidote?
-	"Johann sells oleander antidote" = true
 	#Johann sells Viking artifacts?
 	"Johann sells Viking artifacts" = true
-	#Number of times you can buy a dragon egg crate. Must be at least 1 - disable above if you do not want them at all.
-	"Egg crate trade uses" = 1
-	#Egg crate base price. Must be at least 1
-	#Range: 1 ~ 64
-	"Egg crate base price" = 32
 	#Viking artifact base price. Must be at least 1.
 	#Range: 1 ~ 64
 	"Viking artifact base price" = 48
+	#Johann sells Dragon eggs?
+	"Johann sells  dragon eggs" = true
+	#Johann sells remedies for dangerous effects?
+	"Johann sells remedies" = true
+	#Number of times you can buy a dragon egg. Must be at least 1 - disable above if you do not want them at all.
+	"Egg trade uses" = 1
+	#Base egg price for common dragons. Must be at least 1
+	#Range: 1 ~ 64
+	"Base egg price for common dragons" = 16
+	#Base egg price for uncommon dragons. Must be at least 1
+	#Range: 1 ~ 64
+	"Base egg price for uncommon dragons" = 32
+	#Base egg price for rare dragons. Must be at least 1
+	#Range: 1 ~ 64
+	"Base egg price for rare dragons" = 48
+	#Base egg price for legendary dragons. Must be at least 1
+	#Range: 1 ~ 64
+	"Base egg price for legendary dragons" = 64
+	#Effect remedy base price. Must be at least 1.
+	#Range: 1 ~ 64
+	"Remedy base price" = 2
+	#Grimora max health (in half hearts)
+	"Johann max health" = 20.0
+	#Johann movement speed
+	"Johann movement speed" = 0.5
+	#Johann follow range (in blocks)
+	"Johann follow range" = 48.0
 
 ["Whispering Death Nests"]
 	#How many Whispering Death Nests spawn per chunk?
 	"Nests Per Chunk" = 10
 	#How many Whispering Death Nest blocks spawn in one Nest?
 	"Nest Size" = 3
+
+["Dragon Behaviour"]
+	#Disable small dragons perching on Beds & Perches?
+	"Disable small dragon block perching" = false
+	#Disable dragons being afraid of Eels? (Currently just Small Dragons)
+	"Disable (small) dragon eel fear" = false
+
+[Grimora]
+	#Disable Grimora Toxin?
+	"Disable Grimora Toxin?" = false
+	#Disable Grimora from Spawning?
+	"Disable Grimora from Spawning in Swamps?" = false
+	#Disable stage 3 Grimora infection from spreading?
+	"Disable Stage 3 Grimora Infection Spreading?" = false
+	#Disable use of Salt?
+	"Disable Grimora curability" = false
+	#Disable Grimora's from being captured?
+	"Disable Grimora capturing" = false
+	#Enable Grimora Toxin to be incurable at Stage 3 (Infection) & only curable with Diluted Changewing Acid?
+	"Enable Grimora Outbreak: Incurable Grimora Stage 3 Infection & Diluted Changewing Acid remedy for Stage 1 & 2?" = false
+	#Allow Grimora Toxin to progress to stage 2 (aggression)?
+	"Allow stage two grimora" = true
+	#Allow Grimora Toxin to progress to stage 3 (spreading)?
+	"Allow stage three grimora" = true
+	#Enable Grimora hostility at stage 2?
+	"Enable stage two grimora hostility" = true
+	#Enable Grimora hostility at stage 3?
+	"Enable stage three grimora hostility" = true
+	#How many Grimora Spawn from stage 3 infested Dragons?
+	"Number of Grimora spawning from Infested Dragons" = 1
+	#Grimora max health (in half hearts)
+	"Grimora max health" = 2.0
+	#Grimora attack damage (in half hearts)
+	"Grimora attack damage" = 1.0
+	#Grimora movement speed
+	"Grimora movement speed" = 0.3
+	#Grimora flying speed
+	"Grimora flying speed" = 0.8
+	#Grimora follow range (in blocks)
+	"Grimora follow range" = 24.0
+	#Allow Grimora to open doors?
+	"Grimora can open doors" = false
+
+["Aquatic Creatures"]
+	#Disable Giant Screaming Eels from Spawning?
+	"Disable Giant Screaming Eels from Spawning?" = false
+	#Giant Screaming Eel max health (in half hearts)
+	"Giant Screaming Eel max health" = 30.0
+	#Giant Screaming Eel attack damage (in half hearts)
+	"Giant Screaming Eel attack damage" = 10.0
+	#Giant Screaming Eel movement speed
+	"Giant Screaming Eel movement speed" = 0.2
+	#Giant Screaming Eel follow range (in blocks)
+	"Giant Screaming Eel follow range" = 16.0
+	#Dragon Hunter Giant Screaming Eel max health (in half hearts)
+	"Dragon Hunter Giant Screaming Eel max health" = 30.0
+	#Dragon Hunter Giant Screaming Eel armor (in half icons)
+	"Dragon Hunter Giant Screaming Eel armor" = 10.0
+	#Dragon Hunter Giant Screaming Eel attack damage (in half hearts)
+	"Dragon Hunter Giant Screaming Eel attack damage" = 10.0
+	#Dragon Hunter Giant Screaming Eel movement speed
+	"Dragon Hunter Giant Screaming Eel movement speed" = 0.2
+	#Dragon Hunter Giant Screaming Eel follow range (in blocks)
+	"Dragon Hunter Giant Screaming Eel follow range" = 16.0
+	#Disable Eels from Spawning?
+	"Disable Eels from Spawning?" = false
+	#Eel max health (in half hearts)
+	"Eel max health" = 3.0
+	#Eel attack damage (in half hearts)
+	"Eel attack damage" = 3.0
+	#Eel movement speed
+	"Eel movement speed" = 0.4
+	#Eel follow range (in blocks)
+	"Eel follow range" = 16.0
+	#Disable Ice Tail Pike from Spawning?
+	"Disable Ice Tail Pike from Spawning?" = false
+	#Ice Tail Pike max health (in half hearts)
+	"Ice Tail Pike max health" = 3.0
+	#Ice Tail Pike movement speed
+	"Ice Tail Pike movement speed" = 0.4
+	#Disable Sea Slugs from Spawning?
+	"Disable Sea Slugs from Spawning?" = false
+	#Sea Slug max health (in half hearts)
+	"Sea Slug max health" = 3.0
+	#Sea Slug movement speed
+	"Sea Slug movement speed" = 0.4
+
+["Seasonal bundles (the highest forcing on the list will take priority)"]
+	#Disable Seasonal Bundles?
+	"Disable seasonal bundles" = false
+	#Force yule season?
+	"force yule" = false
+	#Force thawfest season?
+	"force thawfest" = false
+	#Force midsommar season?
+	"force midsommar" = false
+	#Force bork week season?
+	"force bork week" = false
+	#Force dreadfall season?
+	"force dreadfall" = false
+	#Force snoggletog season?
+	"force snoggletog" = false
 
