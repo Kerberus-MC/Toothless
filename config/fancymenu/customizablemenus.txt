@@ -51,9 +51,9 @@ lain.mods.cos.impl.client.gui.GuiCosArmorInventory {
 net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
