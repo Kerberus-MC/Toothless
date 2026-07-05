@@ -1,0 +1,27 @@
+
+["Configs for Riding Utilities"]
+	#How high do mobs jump when using reins? (Defaults to 0.5)
+	#Range: 0.1 ~ 2.0
+	"Reins Jump Height" = 0.5
+	#Speed multiplier for when mobs are using reins and use the riding crop (Defaults to 2.0)
+	#Range: 0.1 ~ 3.0
+	"Reins Whip Speed Boost" = 2.0
+	#How long does the speed boost last? (Defaults to 140 ticks or 7 seconds)
+	#Range: 1 ~ 99999999
+	"Riding Crop Speed Duration" = 140
+	#Speed amplifier for default controllable mobs (Defaults to 2)
+	#Range: 0 ~ 99999999
+	"Riding Crop Speed Amplifier" = 2
+	#How many ticks before the riding crop can be used again? (Defaults to 60 or 3 seconds)
+	#Range: 1 ~ 99999999
+	"Riding Crop Cooldown" = 120
+	#Does the riding crop occasionally cause faux damage even when repaired? (Defaults to false)
+	"Riding Crop Fake Damage" = false
+	#Does the riding crop have a chance to buck off the rider when at low durability? (Defaults to true)
+	"Riding Crop Buck Chance" = true
+	#When does the risk of side effects begin (at what damage value, higher number = lower durability)? (Defaults to 32)
+	#Range: 1 ~ 2048
+	"Riding Crop Buck Danger" = 32
+	#Do horses naturally swim in water (even lava) when they have a rider? (Defaults to true)
+	"Horses Swim Naturally" = true
+

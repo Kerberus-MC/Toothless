@@ -1,0 +1,110 @@
+[
+    {
+        "mod": [
+            "isleofberk",
+            "inferno"
+        ],
+        "result": "allow"
+    },
+    {
+        "dimension": "ecod:the_depths",
+        "mob": [
+            "minecraft:bat",
+            "minecraft:spider",
+            "minecraft:witch",
+            "minecraft:cave_spider",
+            "minecraft:enderman",
+            "minecraft:phantom",
+            "minecraft:slime"
+        ],
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:skeleton",
+            "minecraft:creeper",
+            "minecraft:zombie_villager",
+            "minecraft:drowned",
+            "minecraft:stray",
+            "minecraft:polar_bear",
+            "minecraft:vex"
+        ],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:silverfish",
+        "mincount": {
+            "amount": 15,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:centipede_head",
+        "mincount": {
+            "amount": 3,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "biomemakeover:tumbleweed",
+        "mincount": {
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:cachalot_whale",
+        "mincount": {
+            "amount": 1,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "minecraft",
+        "hostile": true,
+        "mincount": {
+            "amount": 20,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "alexsmobs",
+        "hostile": true,
+        "mincount": {
+            "amount": 20,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": [
+            "biomemakeover",
+            "guardvillagers"
+        ],
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": [
+            "quark",
+            "neapolitan",
+            "ecologics",
+            "untitledduckmod"
+        ],
+        "mincount": {
+            "amount": 15,
+            "perplayer": true
+        },
+        "result": "deny"
+    }
+]

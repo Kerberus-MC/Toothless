@@ -1,0 +1,21 @@
+
+["Structure Spawn Rate"]
+	#Spawn rate for all nest structures [ Max 1.0 ]
+	"Nest spawn rate" = 0.01
+	#Spawn rate for all ship structures [ Max 1.0 ]
+	"Ship spawn rate" = 0.01
+
+["Dragon Albino Rate"]
+	#Rate for an albino dragon variant to spawn inside a ship [ Max 1.0 ]
+	"Dragon albino rate" = 1.0
+
+["Scale Drop Rate"]
+	#Drop rate for scales to naturally drop from dragons [ in seconds ]
+	"Scale drop rate" = 310.0
+
+["Variant Nests"]
+	#Stego dragon nests spawn [ true/false ]
+	"Stego nest spawn" = false
+	#Archipelago dragon nests spawn [true/false]
+	"Archipelago nest spawn" = false
+

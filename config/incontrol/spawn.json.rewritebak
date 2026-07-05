@@ -1,0 +1,42 @@
+[
+	{
+        "mod": ["isleofberk", "inferno"],
+        "result": "allow"
+    },
+    {
+		"dimension": "ecod:the_depths",
+		"mob": ["minecraft:bat", "minecraft:spider", "minecraft:witch", "minecraft:cave_spider", "minecraft:enderman", "minecraft:phantom", "minecraft:slime"],
+		"onjoin": true,
+		"result": "deny"
+	},
+	{
+		"seesky": false,
+		"maxheight": 50,
+		"mob": "minecraft:silverfish",
+		"result": "allow",
+        "mincount": {
+            "amount": 30,
+            "perplayer": true
+        }
+	},
+	{
+		"mod": ["minecraft", "alexsmobs", "biomemakeover", "quark", "neapolitan", "ecologics", "untitledduckmod", "guardvillagers"],
+		"mincount": {
+            "amount": 15,
+            "perplayer": true
+        },
+		"result": "deny"
+	},
+	{
+		"mob": "minecraft:witch",
+		"healthmultiply": 0.7,
+		"seesky": false,
+		"mincount": 1,
+		"result": "deny"
+	},
+	{
+		"mob": "alexsmobs:cachalot_whale",
+		"mincount": 1,
+		"result": "deny"
+	}
+]

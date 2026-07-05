@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Skipping Entity with id "]
+	regex = []
+
