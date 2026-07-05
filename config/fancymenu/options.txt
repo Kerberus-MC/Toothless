@@ -2,7 +2,7 @@
 
 I:default_gui_scale = '-1';
 B:play_vanilla_menu_music = 'true';
-B:force_fullscreen = 'false';
+B:force_fullscreen = 'true';
 
 
 ##[customization]
